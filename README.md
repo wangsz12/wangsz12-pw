@@ -15,7 +15,8 @@
 - 参考
   - 整体风格 - Losko - https://losko.ru/
   - 色调 - Scott Snyder - https://www.scottsnyderphoto.com/
-  - 色调 - Juno Photo & Film https://www.junophotofilm.com/
+  - 色调 - Juno Photo & Film - https://www.junophotofilm.com/
+  - UI - Meiwen - https://www.meiwensee.com/
 - 结构
   - 主页
   - 画廊（Gallery）
