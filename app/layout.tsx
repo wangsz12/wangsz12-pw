@@ -1,4 +1,5 @@
-import "./globals.css";
+import './globals.css';
+import { noto } from './plugins/fonts';
 
 export default function RootLayout({
   children,
@@ -7,8 +8,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-Hans">
-      <body>
-        {children}
+      <body className={noto.className}>
+        <div className='home-bg h-screen w-screen'>
+          <div className='px-44'>
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

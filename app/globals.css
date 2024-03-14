@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --main-theme: #F5F4ED;
+    --sub-theme: #C6A969;
+}
