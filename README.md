@@ -1,0 +1,41 @@
+## wangsz12 personal website
+
+时隔两年再次开始写一个个人网站，主要用来存放拍摄的照片以及一些文章感想(perhaps)。
+
+- 技术栈
+  - 前端
+    - Next.js with Typescript
+    - Tailwind css
+  - 后端
+    - Next.js built-in server
+    - MongoDB
+  - 管理端？
+- 项目地址
+- 项目管理 - https://trello.com/b/PZmMxZyL/wangsz-pw
+- 参考
+  - 整体风格 - Losko - https://losko.ru/
+  - 色调 - Scott Snyder - https://www.scottsnyderphoto.com/
+  - 色调 - Juno Photo & Film https://www.junophotofilm.com/
+- 结构
+  - 主页
+  - 画廊（Gallery）
+    - 单幅图
+    - 组图（Collection）
+      - 呈现方式？
+    - 瀑布流
+    - 查看详细
+      - 全屏？
+  - 文章（Blog）
+    - 实现方式？
+    - 标签？分类？
+    - 搜索？
+  - 关于我
+- Milestone
+  - [ ] 技术选型
+  - [ ] 确定参考
+  - [ ] 创建项目
+  - [ ] 基本页面开发
+  - [ ] 域名合规专项
+  - [ ] 图片加载速度优化专项
+  - [ ] 移动端优化专项
+  - [ ] SEO专项
