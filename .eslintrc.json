@@ -1,7 +1,12 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/jsx-runtime"
+  ],
   "plugins": [ "@stylistic/ts" ],
   "rules": {
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "quotes": [2, "single"],
+    "react/react-in-jsx-scope": "off"
   }
 }
