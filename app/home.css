@@ -1,3 +1,5 @@
+@import './globals.css';
+
 .home-bg {
-    background-color: rgb(245, 244, 240);
+    background-color: var(--main-theme);
 }
