@@ -29,3 +29,22 @@
 .divider:not(:empty)::after {
     margin: 0 10rem 0 5rem;
 }
+
+.view-more {
+    transition: all linear .2s;
+}
+
+.view-more:hover {
+    border-color: var(--sub-theme);
+    background-color: var(--sub-theme);
+    transition: all linear .2s;
+}
+
+.view-more button {
+    transition: all linear .2s;
+}
+
+.view-more:hover button {
+    color: white;
+    transition: all linear .2s;
+}
