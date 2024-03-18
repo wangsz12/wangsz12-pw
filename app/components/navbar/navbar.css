@@ -1,0 +1,10 @@
+@import '@/app/globals.css';
+
+.item {
+    transition: all linear .2s;
+}
+
+.item:hover {
+    color: var(--sub-theme);
+    transition: all linear .2s;
+}
