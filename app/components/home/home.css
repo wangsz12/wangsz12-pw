@@ -1,26 +1,5 @@
 @import '@/app/globals.css';
 
-.divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.divider::before, .divider::after {
-    content: '';
-    flex: 1;
-    border-bottom: 2px solid var(--sub-theme);
-    opacity: .3;
-}
-
-.divider:not(:empty)::before {
-    margin: 0 5rem 0 10rem;
-}
-
-.divider:not(:empty)::after {
-    margin: 0 10rem 0 5rem;
-}
-
 .view-more {
     transition: all linear .2s;
 }
