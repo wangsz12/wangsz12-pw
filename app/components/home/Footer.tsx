@@ -1,8 +1,9 @@
 import Image from 'next/image';
-import Divider from './Divider';
+import Divider from '../Divider';
 import { AiFillHeart, AiOutlineGithub, AiOutlineMail } from 'react-icons/ai';
 import './home.css';
 import { noto } from '@/app/libs/fonts';
+import { BiLogoSteam } from 'react-icons/bi';
 
 interface IconLinkProps {
     to: string;
@@ -28,7 +29,10 @@ export default function Footer() {
                         <AiOutlineMail size={28} />
                     </IconLink>
                     <IconLink to='https://www.xiaohongshu.com/user/profile/62496468000000001000b527' title='小红书'>
-                        <Image src='/redbook.svg' height={28} width={28} alt='RED' />
+                        <Image src='/redbook.svg' height={28} width={28} alt='RED' className='select-none' />
+                    </IconLink>
+                    <IconLink to='https://steamcommunity.com/id/g-puffy/' title='Steam'>
+                        <BiLogoSteam size={32} />
                     </IconLink>
                 </div>
             </Divider>
