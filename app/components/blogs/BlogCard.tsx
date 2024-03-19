@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import Divider from '../home/Divider';
+import Divider from '../Divider';
 import Link from 'next/link';
 import './blogs.css';
 import Tag from './Tag';
@@ -21,8 +21,8 @@ export default function BlogItem(props: Props) {
     return (
         <div className="h-72 mx-36 my-16 bg-gray-50 rounded-lg flex">
             <div className="h-full w-72 min-w-72 flex justify-center items-center flex-col">
-                <span className='blog-item-day text-gray-600 text-5xl font-bold mb-4'>{djsObj.date()}</span>
-                <span className='text-gray-600 text-lg'>{`${djsObj.year()}年${djsObj.month() + 1}月`}</span>
+                <span className='blog-item-day text-gray-800 text-5xl font-bold mb-4'>{djsObj.date()}</span>
+                <span className='text-gray-800 text-lg'>{`${djsObj.year()}年${djsObj.month() + 1}月`}</span>
             </div>
             <div className='h-full p-8 pl-0 overflow-hidden flex flex-col'>
                 <span className='text-2xl font-bold block overflow-hidden text-ellipsis whitespace-nowrap' title={props.title}>
@@ -35,7 +35,7 @@ export default function BlogItem(props: Props) {
                         <AiOutlineTags size={28} className='mr-2 text-gray-600' />
                         {props.tags?.map(({id, name}) => <Tag key={id} id={id}>{name}</Tag>)}
                     </div>
-                    <Link href={url} className='h-10 w-32 bg-sub-theme rounded-md ml-auto'>
+                    <Link href={url} className='h-10 w-32 bg-sub-theme rounded-md ml-auto mr-4'>
                         <button className="w-full h-full text-center text-white font-bold">阅读全文</button>
                     </Link>
                 </div>
